@@ -3,6 +3,8 @@
   padding: 0;
   margin: 0;
   font-size: 1rem;
+  text-align: center;
+  color: white;
 }
 .container {
   width: 100%;
@@ -59,4 +61,40 @@
 
 .col-12 {
   width: 100%;
+}
+
+.logo {
+  background-color: aquamarine;
+  padding: 1rem;
+}
+
+.menu {
+  background-color: aqua;
+  padding: 1rem;
+}
+.banner {
+  background-color: tomato;
+  padding: 4rem;
+}
+
+.bolum1,
+.bolum2,
+.bolum3 {
+  background-color: greenyellow;
+  border: 1px solid grey;
+  height: calc(100vh - 330px);
+}
+
+.bolum4,
+.bolum5,
+.bolum6 {
+  background-color: tomato;
+  padding: 1rem;
+  border: 1px solid grey;
+}
+
+.footer {
+  background-color: blueviolet;
+  padding: 2rem;
+  display: block;
 }
